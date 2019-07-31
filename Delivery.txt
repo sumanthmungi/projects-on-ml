@@ -124,10 +124,4 @@ if __name__ == "__main__":
     pizzerias = [map(int, raw_input().rstrip().split()) for _ in xrange(n)]
     customers = [map(int, raw_input().rstrip().split()) for _ in xrange(m)]
     solution = solve(n, m, pizzerias, customers)
-    print "\n".join([str(s) for s in solution])
-    
-
-  
-
-
-        
+    print "\n".join([str(s) for s in solution])       
